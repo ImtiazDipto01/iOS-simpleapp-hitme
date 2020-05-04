@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F31959A1242F88FB0016D2B0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31959A0242F88FB0016D2B0 /* AboutViewController.swift */; };
+		F39A17E4243282FF00C2FA51 /* AuthorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39A17E3243282FF00C2FA51 /* AuthorInfoViewController.swift */; };
+		F3B0D00D243A03E500B16269 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = F3B0D00C243A03E500B16269 /* BullsEye.html */; };
 		F3E7A471242CAE4600DBE06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E7A470242CAE4600DBE06A /* AppDelegate.swift */; };
 		F3E7A473242CAE4600DBE06A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E7A472242CAE4600DBE06A /* SceneDelegate.swift */; };
 		F3E7A475242CAE4600DBE06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E7A474242CAE4600DBE06A /* ViewController.swift */; };
@@ -16,7 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F3E7A46D242CAE4600DBE06A /* HitMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31959A0242F88FB0016D2B0 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		F39A17E3243282FF00C2FA51 /* AuthorInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorInfoViewController.swift; sourceTree = "<group>"; };
+		F3B0D00C243A03E500B16269 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../../Downloads/5-06-web-views-and-developer-documentation/BullsEye.html"; sourceTree = "<group>"; };
+		F3E7A46D242CAE4600DBE06A /* Hit Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hit Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E7A470242CAE4600DBE06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3E7A472242CAE4600DBE06A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F3E7A474242CAE4600DBE06A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +54,7 @@
 		F3E7A46E242CAE4600DBE06A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3E7A46D242CAE4600DBE06A /* HitMe.app */,
+				F3E7A46D242CAE4600DBE06A /* Hit Me.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,10 +65,13 @@
 				F3E7A470242CAE4600DBE06A /* AppDelegate.swift */,
 				F3E7A472242CAE4600DBE06A /* SceneDelegate.swift */,
 				F3E7A474242CAE4600DBE06A /* ViewController.swift */,
+				F31959A0242F88FB0016D2B0 /* AboutViewController.swift */,
 				F3E7A476242CAE4600DBE06A /* Main.storyboard */,
 				F3E7A479242CAE4800DBE06A /* Assets.xcassets */,
 				F3E7A47B242CAE4800DBE06A /* LaunchScreen.storyboard */,
 				F3E7A47E242CAE4800DBE06A /* Info.plist */,
+				F39A17E3243282FF00C2FA51 /* AuthorInfoViewController.swift */,
+				F3B0D00C243A03E500B16269 /* BullsEye.html */,
 			);
 			path = HitMe;
 			sourceTree = "<group>";
@@ -84,7 +93,7 @@
 			);
 			name = HitMe;
 			productName = HitMe;
-			productReference = F3E7A46D242CAE4600DBE06A /* HitMe.app */;
+			productReference = F3E7A46D242CAE4600DBE06A /* Hit Me.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3E7A47D242CAE4800DBE06A /* LaunchScreen.storyboard in Resources */,
+				F3B0D00D243A03E500B16269 /* BullsEye.html in Resources */,
 				F3E7A47A242CAE4800DBE06A /* Assets.xcassets in Resources */,
 				F3E7A478242CAE4600DBE06A /* Main.storyboard in Resources */,
 			);
@@ -138,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39A17E4243282FF00C2FA51 /* AuthorInfoViewController.swift in Sources */,
 				F3E7A475242CAE4600DBE06A /* ViewController.swift in Sources */,
 				F3E7A471242CAE4600DBE06A /* AppDelegate.swift in Sources */,
+				F31959A1242F88FB0016D2B0 /* AboutViewController.swift in Sources */,
 				F3E7A473242CAE4600DBE06A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +303,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.imtiazcompany.HitMe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Hit Me";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,7 +320,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.imtiazcompany.HitMe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Hit Me";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
