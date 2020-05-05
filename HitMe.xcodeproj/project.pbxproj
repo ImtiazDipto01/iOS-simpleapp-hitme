@@ -10,6 +10,7 @@
 		F31959A1242F88FB0016D2B0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31959A0242F88FB0016D2B0 /* AboutViewController.swift */; };
 		F39A17E4243282FF00C2FA51 /* AuthorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39A17E3243282FF00C2FA51 /* AuthorInfoViewController.swift */; };
 		F3B0D00D243A03E500B16269 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = F3B0D00C243A03E500B16269 /* BullsEye.html */; };
+		F3B942622461FC8C005F7A90 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B942612461FC8C005F7A90 /* WebKit.framework */; };
 		F3E7A471242CAE4600DBE06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E7A470242CAE4600DBE06A /* AppDelegate.swift */; };
 		F3E7A473242CAE4600DBE06A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E7A472242CAE4600DBE06A /* SceneDelegate.swift */; };
 		F3E7A475242CAE4600DBE06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E7A474242CAE4600DBE06A /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 		F31959A0242F88FB0016D2B0 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		F39A17E3243282FF00C2FA51 /* AuthorInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorInfoViewController.swift; sourceTree = "<group>"; };
 		F3B0D00C243A03E500B16269 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../../Downloads/5-06-web-views-and-developer-documentation/BullsEye.html"; sourceTree = "<group>"; };
+		F3B942612461FC8C005F7A90 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		F3E7A46D242CAE4600DBE06A /* Hit Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hit Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E7A470242CAE4600DBE06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3E7A472242CAE4600DBE06A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,17 +39,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B942622461FC8C005F7A90 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3B942602461FC8C005F7A90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B942612461FC8C005F7A90 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F3E7A464242CAE4600DBE06A = {
 			isa = PBXGroup;
 			children = (
 				F3E7A46F242CAE4600DBE06A /* HitMe */,
 				F3E7A46E242CAE4600DBE06A /* Products */,
+				F3B942602461FC8C005F7A90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
